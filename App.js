@@ -3,6 +3,7 @@
 import { StyleSheet, Text, TextInput, View } from 'react-native';
 import Title from './src/Components/Title';
 import Main from './src/Main';
+
 export default function App() {
   return (
     <View style={styles.container}>
