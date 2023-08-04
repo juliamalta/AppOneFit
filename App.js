@@ -1,14 +1,14 @@
 
 
-import { StyleSheet, Text, TextInput, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Title from './src/Components/Title';
-import Main from './src/Main';
+import Form from './src/Components/Form';
 
 export default function App() {
   return (
     <View style={styles.container}>
      <Title/>
-     <Main/>
+     <Form/>
     </View>
   );
 }
@@ -16,8 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#e0e5e5',
+    paddingTop:80,
   },
 });
